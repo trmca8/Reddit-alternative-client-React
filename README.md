@@ -23,9 +23,7 @@ Installation
 
 1. Clone the repository:
 
-   - git clone https://github.com/yourusername/Reddit-Alternative-Client.git
-   
-   - cd Reddit-Alternative-Client
+   - git clone https://github.com/trmca8/Reddit-alternative-client-React.git
 
 
 2. Install the dependencies:
@@ -59,9 +57,13 @@ Usage:
         - Click on a show comment to see the comments section, which displays all comments fetched from Reddit (5 by 5).
 
 How It Works:
+
     1. Fetch Posts: The app uses the Reddit API to fetch hot posts from the specified subreddit.
+
     2. API Requests: Axios handles API requests for posts and comments, simplifying data retrieval and error handling.
+
     3. Filtering by Keyword: When the filter is active, the app fetches and displays only posts that match the keyword "JetBrains" in the title.
+
     4. Comment Fetching: The app fetches comments for each post when the button is clicked, showing them in a collapsible section below the post details.
 
 Dependencies:
@@ -70,13 +72,18 @@ Dependencies:
   - Font Awesome (for icons)
 
 Bash Commands Recap:
+
     # Clone repository
-        - git clone https://github.com/yourusername/Reddit-Alternative-Client.git
+
+        - git clone https://github.com/trmca8/Reddit-alternative-client-React.git
+
         - cd Reddit-Alternative-Client
 
     # Install dependencies
-        npm install axios
-        npm install styled-components react-icons
+
+        - npm install axios
+        
+        - npm install styled-components react-icons
 
     # Start the app
         - npm start
